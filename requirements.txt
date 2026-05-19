@@ -1,0 +1,5 @@
+langchain-ollama
+langchain
+langchain-community
+textual>=0.50.0
+pydantic
