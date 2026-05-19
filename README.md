@@ -8,9 +8,9 @@
 
 Project Cipher is an intelligent, secure terminal assistant that lets you interact with your Linux command line using plain English. It bridges the gap between natural language and shell execution, translating your intent into accurate bash commands on the fly. 
 
-* **What was your motivation?** I wanted to explore how to safely connect generative AI with direct OS-level execution. LLMs are notoriously unpredictable, so the real challenge was building an interface where a local model could look up and run shell scripts without accidentally destroying the host machine.
+* **What was my motivation?** I wanted to explore how to safely connect generative AI with direct OS-level execution. LLMs are notoriously unpredictable, so the real challenge was building an interface where a local model could look up and run shell scripts without accidentally destroying the host machine.
 * **What problem does it solve?** It eliminates the need to memorize complex terminal syntax for daily tasks while keeping the system entirely safe. If you ask it to do something minor, it runs it instantly. If you ask it to do something dangerous or administrative, it locks down the interface and demands validation.
-* **What did you learn?** I mastered map-reducing natural language user intent into structured, deterministic shell code using Python and local LLMs. I learned how to handle advanced runtime safety by using Python to tokenize and intercept hazardous bash commands before they ever hit the operating system layer. Additionally, I learned how to securely manage OS-level subprocess streams—piping standard input variables dynamically without deadlocking the host environment—while wrapping the entire pipeline in an asynchronous `Textual` TUI framework to keep the engine responsive.
+* **What did I learn?** I mastered map-reducing natural language user intent into structured, deterministic shell code using Python and local LLMs. I learned how to handle advanced runtime safety by using Python to tokenize and intercept hazardous bash commands before they ever hit the operating system layer. Additionally, I learned how to securely manage OS-level subprocess streams—piping standard input variables dynamically without deadlocking the host environment—while wrapping the entire pipeline in an asynchronous `Textual` TUI framework to keep the engine responsive.
 
 ---
 
