@@ -153,7 +153,7 @@ While Project Cipher is fully operational as a localized proof-of-concept, the f
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+Contributions are welcome 😊! Please fork the repository and submit a pull request with your changes.
 
 ---
 
