@@ -117,7 +117,7 @@ When processing low-risk or non-root utility requests, the pipeline bypasses mod
 * **User Input:** `create a folder called test_folder in my current directory`
 * **Engine Intention Recognition:** `Create a directory named test_folder in the current working directory`
 * **Dynamic Command Generation:** `mkdir test_folder`
-* **Result Matrix:** Evaluated as safe ➔ Executed instantly ➔ System outputs positive return token: `✨ Process completed successfully! Ready for next command.`
+* **Result Matrix:** Evaluated as safe ➔ Executed instantly ➔ System outputs positive return token: `Process completed successfully! Ready for next command.`
 
 ---
 
